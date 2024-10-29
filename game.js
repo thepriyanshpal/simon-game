@@ -56,7 +56,8 @@ function nextSequence() {
   var randomChosenColour = buttonColours[randomNumber];
   gamePattern.push(randomChosenColour);
 
-  $("#" + randomChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
+  // Apply fade animation on button selection
+  $("." + randomChosenColour).fadeOut(100).fadeIn(100);
   playSound(randomChosenColour);
 }
 
