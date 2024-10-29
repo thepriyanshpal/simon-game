@@ -5,24 +5,26 @@ body {
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin:  5%;
+  font-size: 2.5rem;
   color: #FEF2BF;
+  margin: 5% 0;
 }
 
 .container {
-  display: block;
-  width: 50%;
+  width: 70%;
   margin: auto;
+}
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
 }
 
 .btn {
-  margin: 25px;
-  display: inline-block;
-  height: 200px;
-  width: 200px;
-  border: 10px solid black;
+  height: 100px;
+  width: 100px;
+  border: 5px solid black;
   border-radius: 20%;
 }
 
@@ -31,23 +33,29 @@ body {
   opacity: 0.8;
 }
 
-.red {
-  background-color: red;
-}
-
-.green {
-  background-color: green;
-}
-
-.blue {
-  background-color: blue;
-}
-
-.yellow {
-  background-color: yellow;
-}
-
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+/* Adding color classes for each button */
+.color0 { background-color: red; }
+.color1 { background-color: blue; }
+.color2 { background-color: green; }
+.color3 { background-color: yellow; }
+.color4 { background-color: purple; }
+.color5 { background-color: orange; }
+.color6 { background-color: pink; }
+.color7 { background-color: brown; }
+.color8 { background-color: teal; }
+.color9 { background-color: cyan; }
+.color10 { background-color: magenta; }
+.color11 { background-color: lime; }
+.color12 { background-color: maroon; }
+.color13 { background-color: olive; }
+.color14 { background-color: navy; }
+.color15 { background-color: coral; }
+.color16 { background-color: indigo; }
+.color17 { background-color: gold; }
+.color18 { background-color: lavender; }
+.color19 { background-color: tomato; }
